@@ -1,0 +1,50 @@
+.recommendedAlbums {
+    background-color: #d34949;
+    padding: 20px;
+    margin-top: -10px; /* Desplaza la sección ListenAgain hacia abajo, debajo del Header */
+  }
+  
+  .recommendedAlbums h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .albums {
+    
+    flex-wrap: wrap;
+    gap: 5px;
+    box-sizing: content-box;
+    
+  }
+  
+  .album {
+    width: 80%;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    margin: auto
+  }
+  
+  .album img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  .album p {
+    margin: 10px 0 0 0;
+    font-size: 12px;
+  }
+
+  .similar  {
+    max-width: 100%;
+    margin: auto;
+    
+ 
+        
+    
+   
+  }
+  

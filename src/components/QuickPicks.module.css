@@ -1,0 +1,36 @@
+.quickPicks {
+    background-color: #d61f1f;
+    padding: 20px;
+    margin-top: -10px; /* Desplaza la sección ListenAgain hacia abajo, debajo del Header */
+  }
+  
+  .quickPicks h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .picks {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .pick img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .pick p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
